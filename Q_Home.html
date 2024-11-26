@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q Home</title>
+	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<link rel="stylesheet" type="text/css" href="Q_Home.css">
+	<link href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+</head>
+
+<body>
+	<nav class="body">
+		<header class="header">
+			<a href="#" class="logo"> Q</a>
+
+			<nav class="navbar">
+				<a href="QuestionsHome.html" target="_self">Home</a>
+				<a href="#">About</a>
+				<a href="#">Contact</a>
+			</nav>
+			<div class="social-icons">
+				<a href="https://web.facebook.com/meseret.yitayew/?_rdc=1&_rdr#">
+				<i class="fab fa-facebook-f"></i>
+				</a>
+				<a href="https://www.freecodecamp.org/certification/seid_idris_mengesha/responsive-web-design">
+				<i class="fab fa-twitter"></i>
+				</a>
+				<a href="https://t.me/seiddreams">
+				<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://youtu.be/mCTEfpDyWsc">
+				<i class="fab fa-linkedin-in"></i>
+				</a>
+				<a href="https://youtu.be/-0DEztsh3U4">
+				<i class="fab fa-youtube"></i>
+				</a>
+		    </div>
+		</header>
+	</nav>
+	
+	<div class="q-box" id="q-box">
+		<div class="home-box custom-box hide" id="start-screen">
+			<h3>Instruction:</h3>
+			<p>Total number of questions: <span class="total-question"> 10</span> </p>
+			<button type="button" class="btn" id="start"> Start Quiz</button>
+		</div>
+
+		<div class="quiz-box custom-box" id="questions">
+			
+			<div class="question-number">
+				Question 1 of 10
+			</div>
+			
+			<div class="question-text">
+				Which one of the following is input device?
+			</div>
+			
+			<div class="option-container">
+					<label for="choice-a" class="option inline"><input id="choice-a" type="radio" name="account-type"/> A.  Monitor</label>
+					<label for="choice-b" class="option inline"><input id="choice-b" type="radio" name="account-type"/> B. Speaker</label>
+					<label for="choice-c" class="option inline"><input id="choice-c" type="radio" name="account-type"/> C. Mouse</label>
+					<label for="choice-d" class="option inline"><input id="choice-d" type="radio" name="account-type"/> D. Printer</label>
+			</div>
+			
+			<div class="next-question-btn">
+				<button type="button" class="btn">Next</button>
+			</div>
+			
+			<div class="answers-indicator">
+				<div></div><div></div>
+				<div></div><div></div>
+				<div></div><div></div>
+				<div></div><div></div>
+				<div></div><div></div>
+			</div>
+		</div>
+		<div class="result-box custom-box hide">
+			<h1>Quiz Result</h1>
+			<table>
+				<tr>
+					<td>Total Question</td>
+					<td><span class="total-question">5</span> </td>
+				</tr>
+				<tr>
+					<td>Attempt</td>
+					<td><span class="total-question">4</span> </td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<footer>
+	    <div class="social-icons">
+			<a href="https://youtu.be/ZplX_83z5hU">
+			<i class="fab fa-facebook-f"></i>
+			</a>
+			<a href="https://#">
+			<i class="fab fa-twitter"></i>
+			</a>
+			<a href="https://#">
+			<i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://www.google.com">
+			<i class="fab fa-linkedin-in"></i>
+			</a>
+			<a href="https://www.youtube.com/@TechTouchClas/videos">
+			<i class="fab fa-youtube"></i>
+			</a>
+	    </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>
